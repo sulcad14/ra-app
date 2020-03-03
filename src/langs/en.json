@@ -1,0 +1,64 @@
+{
+    "resources": 
+    {
+        "bands": 
+        {
+            "name": "Band |||| Bands",
+            "create": "Create new band",
+            "fields": {
+                "id": "ID",
+                "name": "Name",
+                "desc": "Description",
+                "countryId": "Country of origin",
+                "genreId": "Genre",
+                "albumsIds": "Discography",
+                "active": "Active",
+                "img": "Image"
+            }
+        },
+        "albums": 
+        {
+            "name": "Album |||| Albums",
+            "create": "Create new album",
+            "fields": {
+                "id": "ID",
+                "name": "Name",
+                "year": "Year of release",
+                "bandId": "Band",
+                "genreId": "Genre",
+                "img": "Image",
+                "tracklist": 
+                {
+                    "songName": "Song name",
+                    "url": "Song (ytb)"
+                }
+            } 
+        },
+        "genres": 
+        {
+            "name": "Genre |||| Genres",
+            "create": "Create new genre",
+            "fields": {
+                "id": "ID",
+                "name": "Name",
+                "desc": "Description",
+                "bandsIds": "Bands"
+            } 
+        },
+        "countries": 
+        {
+            "name": "Country |||| Countries",
+            "create": "Create new country",
+            "fields": {
+                "id": "ID",
+                "name": "Name"
+            } 
+        }
+    },
+    "custom": 
+    {
+        "noVideo": "No youtube iframe available",
+        "iframePreview": "Song",
+        "notFound": "404: Invalid URL"
+    }
+}

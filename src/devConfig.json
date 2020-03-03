@@ -1,0 +1,13 @@
+{
+    "name": "Music Project",
+    "version": "1.0.1",
+    "theme":
+    {
+        "primary": "#262626"
+        
+    },
+    "api":
+    {
+        "dataserver":   "https://my-json-server.typicode.com/sulcad14/ra-app"
+    }
+}

@@ -16,6 +16,7 @@
     "react-dom": "^16.13.0",
     "react-json-view": "^1.19.1",
     "react-player": "^1.15.2",
+    "react-rating": "^2.0.4",
     "react-scripts": "3.4.0",
     "react-sortablejs": "^1.5.1",
     "sortablejs": "^1.10.2"

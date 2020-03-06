@@ -83,7 +83,8 @@
                     "songName": "",
                     "url": ""
                 }
-            ]
+            ],
+            "rating": "3"
         },
         {
             "id": 2,
@@ -98,7 +99,8 @@
                     "songName": "",
                     "url": ""
                 }
-            ]
+            ],
+            "rating": "2.5"
         },
         {
             "id": 3,
@@ -117,7 +119,8 @@
                     "songName": "Spellbound (By the Devil)",
                     "url": "https://www.youtube.com/watch?v=QA8lnyxp8QQ"
                 }
-            ]
+            ],
+            "rating": "4.5"
         },
         {
             "id": 4,

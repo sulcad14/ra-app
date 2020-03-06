@@ -31,7 +31,8 @@
                 {
                     "songName": "Song name",
                     "url": "Song (ytb)"
-                }
+                },
+                "rating": "Rating"
             } 
         },
         "genres": 

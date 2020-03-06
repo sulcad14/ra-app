@@ -4,6 +4,7 @@ import { DiscographySortField, DiscographySortInput } from './DiscographySortCom
 import { TracklistSortInput } from './TracklistSortComponents';
 import { JsonDrawer } from './JsonDrawer';
 import { ImageList } from './ImageList';
+import { AlbumRatingField, AlbumRatingInput } from './AlbumRatingComponents';
 
 export
 {
@@ -13,5 +14,7 @@ export
     YtbPlayer,
     TracklistSortInput,
     JsonDrawer,
-    ImageList
+    ImageList,
+    AlbumRatingField,
+    AlbumRatingInput
 }

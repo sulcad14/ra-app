@@ -9,7 +9,7 @@ import
 } from 'react-admin';
 import AlbumIcon from '@material-ui/icons/Album';
 import { Actions } from '../customs';
-import { LinkField, YtbPlayer, TracklistSortInput, ImageList } from '../components';
+import { LinkField, YtbPlayer, TracklistSortInput, ImageList, AlbumRatingField, AlbumRatingInput } from '../components';
 
 const getSourceAndLabel = src =>
 ({
@@ -55,6 +55,7 @@ const AlbumList = props => (
             <ReferenceField source="genreId" reference="genres" link="show">
                 <LinkField source="name" />
             </ReferenceField>
+            <AlbumRatingField source="rating" />
         </Datagrid>
     </List>
 );
@@ -72,6 +73,7 @@ const AlbumShow = props => (
                 <LinkField source="name" />
             </ReferenceField>
             <ImageField source="img" />
+            <AlbumRatingField addLabel={true} label="resources.albums.fields.rating" source="rating" />
             <ArrayField source="tracklist">
                 <Datagrid rowClick="expand" expand={<ExpandField />}>
                     <TextField source="songName" />
@@ -95,6 +97,7 @@ const AlbumEdit = props => (
                 <ReferenceInput source="genreId" reference="genres" allowEmpty>
                     <SelectInput optionText="name" />
                 </ReferenceInput>
+                <AlbumRatingInput addLabel={true} label="resources.albums.fields.rating" source="rating" />
             </FormTab>
             <FormTab label="tracklist" path="tracklist">
                 <ArrayInput source="tracklist">

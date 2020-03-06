@@ -6,13 +6,12 @@ import
     ReferenceArrayField, SingleFieldList, ReferenceInput, Tab,
     ReferenceArrayInput, SelectInput, SelectArrayInput, 
     ImageField, ImageInput, BooleanField, BooleanInput,
-    TabbedForm, FormTab
+    TabbedForm, FormTab, ArrayField, SimpleShowLayout, FunctionField
 } from 'react-admin';
 import MusicNoteIcon from '@material-ui/icons/MusicNote';
-import { Actions } from '../customs/Actions';
+import { Actions } from '../customs';
 import RichTextInput from 'ra-input-rich-text';
 import { LinkField, DiscographySortField, DiscographySortInput } from '../components';
-import { ExpanderBase } from '../components/DiscographyExpanderComponents';
 
 const BandFilter = (props) => (
     <Filter {...props}>
@@ -41,7 +40,7 @@ const BandList = props => (
 );
 
 const BandShow = props => (
-    <Show {...props}>
+    <Show actions={<Actions />} {...props}>
         <TabbedShowLayout>
             <Tab label="summary">
                 <TextField source="id" />
@@ -74,7 +73,7 @@ const BandEdit = props => (
             <FormTab label="summary">
                 <TextInput source="id" disabled={true} />
                 <TextInput source="name" />
-                <RichTextInput source="desc" />
+                <TextInput source="desc" multiline />
                 <BooleanInput source="active" />
                 <ReferenceInput source="countryId" reference="countries" allowEmpty>
                     <SelectInput optionText="name" />
@@ -107,5 +106,6 @@ export default {
     list: BandList,
     show: BandShow,
     edit: BandEdit,
-    create: BandCreate
+    create: BandCreate,
+    hasJson: true
 };

@@ -8,6 +8,7 @@
             "countryId": 1,
             "genreId": 1,
             "albumsIds": [1,2,3,4,5,6,7,8,9,10],
+            "active": true,
             "img": "https://musicserver.cz/img/145750ts.jpg"
         },
         {
@@ -17,6 +18,7 @@
             "countryId": 2,
             "genreId": 2,
             "albumsIds": [11,12,13],
+            "active": false,
             "img": "https://www.spirit-of-metal.com/les%20goupes/D/Dissection%20(SWE)/pics/152683_logo.jpg"
         },
         {
@@ -26,6 +28,7 @@
             "countryId": 3,
             "genreId": 3,
             "albumsIds": [],
+            "active": true,
             "img": "https://diy-magazine.s3.amazonaws.com/d/diy/Artists/P/Pvris/Pvris_2019-0520-Rmid.jpg"
         }
     ],

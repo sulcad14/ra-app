@@ -59,6 +59,7 @@
     {
         "noVideo": "No youtube iframe available",
         "iframePreview": "Song",
-        "notFound": "404: Invalid URL"
+        "notFound": "404: Invalid URL",
+        "editJson": "Edit JSON"
     }
 }

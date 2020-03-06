@@ -2,7 +2,7 @@ import React from 'react';
 import { Admin, Resource } from 'react-admin';
 import * as Models from './models';
 import FakeAPI from './providers/FakeAPI';
-//import dataProvider from './providers/DataProvider';
+// import dataProvider from './providers/DataProvider';
 import fakeDataProvider from 'ra-data-fakerest';
 import { Dashboard, CustomLayout, Localizator, NotFound } from './customs';
 import devConfig from './devConfig';
@@ -19,7 +19,7 @@ const localDataProvider = fakeDataProvider(FakeAPI);
 const App = () => (
     <Admin 
         dataProvider={localDataProvider}
-        //dataProvider={dataProvider}
+        // dataProvider={dataProvider}
         dashboard={Dashboard}
         layout={CustomLayout}
         i18nProvider={Localizator}

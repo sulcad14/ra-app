@@ -8,7 +8,7 @@ import
     FunctionField
 } from 'react-admin';
 import AlbumIcon from '@material-ui/icons/Album';
-import { Actions } from '../customs/Actions';
+import { Actions } from '../customs';
 import { LinkField, YtbPlayer, TracklistSortInput } from '../components';
 
 const getSourceAndLabel = src =>
@@ -59,7 +59,7 @@ const AlbumList = props => (
 );
 
 const AlbumShow = props => (
-    <Show {...props}>
+    <Show actions={<Actions />} {...props}>
         <SimpleShowLayout>
             <TextField source="id" />
             <TextField source="name" />
@@ -124,5 +124,6 @@ export default {
     list: AlbumList,
     show: AlbumShow,
     edit: AlbumEdit,
-    create: AlbumCreate
+    create: AlbumCreate,
+    hasJson: true
 };

@@ -5,7 +5,7 @@ import
     SimpleForm, TextInput, TextField,
 } from 'react-admin';
 import FlagIcon from '@material-ui/icons/Flag';
-import { Actions } from '../customs/Actions';
+import { Actions } from '../customs';
 
 const CountyFilter = (props) => (
     <Filter {...props}>

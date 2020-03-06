@@ -1,15 +1,13 @@
 import React from 'react';
 import { addField } from 'ra-core';
 import { 
-    TextInput, TextField, Datagrid, ReferenceField, ReferenceArrayField, 
-    SingleFieldList, ReferenceInput, SelectInput, ReferenceArrayInput, SelectArrayInput
+    TextInput,
 } from 'react-admin';
 import Sortable from 'react-sortablejs';
 import { withStyles, createStyles, Badge, Paper } from '@material-ui/core';
 import { Reorder as ReorderIcon, TextRotationAngleup } from '@material-ui/icons';
 import { ButtonHelper } from '../customs';
 import get from 'lodash/get';
-import { LinkField } from './';
 
 const styles = theme => createStyles(
 {

@@ -6,10 +6,10 @@ import Gallery from './Gallery';
 
 export const Models =
 {
-    b: Bands,
-    g: Genres,
-    c: Countries,
-    a: Albums,
+    bands: Bands,
+    genres: Genres,
+    countries: Countries,
+    albums: Albums,
     gal: Gallery,
 }
 

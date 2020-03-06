@@ -6,7 +6,7 @@ import
     ReferenceArrayField, ReferenceArrayInput, SelectArrayInput
 } from 'react-admin';
 import LibraryMusicIcon from '@material-ui/icons/LibraryMusic';
-import { Actions } from '../customs/Actions';
+import { Actions } from '../customs';
 import RichTextInput from 'ra-input-rich-text';
 import { LinkField } from '../components';
 
@@ -25,7 +25,7 @@ const GenreList = props => (
 );
 
 const GenreShow = props => (
-    <Show {...props}>
+    <Show actions={<Actions />} {...props}>
         <SimpleShowLayout>
             <TextField source="id" />
             <TextField source="name" />
@@ -44,7 +44,7 @@ const GenreEdit = props => (
         <SimpleForm redirect="show">
             <TextInput source="id" disabled={true} />
             <TextInput source="name" />
-            <RichTextInput source="desc" />
+            <TextInput source="desc" multiline />
             <ReferenceArrayInput source="bandsIds" reference="bands" allowEmpty>
                 <SelectArrayInput optionText="name" />
             </ReferenceArrayInput>
@@ -66,5 +66,6 @@ export default {
     list: GenreList,
     show: GenreShow,
     edit: GenreEdit,
-    create: GenreCreate
+    create: GenreCreate,
+    hasJson: true
 };

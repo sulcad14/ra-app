@@ -1,8 +1,8 @@
 import { fetchUtils } from 'react-admin';
 import { stringify } from 'query-string';
-import FakeAPI from './';
+import FakeAPI from './FakeAPI';
 
-const apiUrl = FakeAPI;
+const apiUrl = 'http://localhost:3004/';
 const httpClient = fetchUtils.fetchJson;
 
 export default 

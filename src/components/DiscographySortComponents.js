@@ -1,8 +1,7 @@
 import React from 'react';
 import { addField } from 'ra-core';
 import { 
-    TextInput, TextField, Datagrid, ReferenceField, ReferenceArrayField, 
-    SingleFieldList, ReferenceInput, SelectInput, ReferenceArrayInput, SelectArrayInput
+    TextInput,
 } from 'react-admin';
 import Sortable from 'react-sortablejs';
 import { withStyles, createStyles, Badge, Paper } from '@material-ui/core';
@@ -10,6 +9,7 @@ import { Reorder as ReorderIcon, TextRotationAngleup } from '@material-ui/icons'
 import { ButtonHelper } from '../customs';
 import get from 'lodash/get';
 import { LinkField } from './';
+// import dataProvider from '../providers/DataProvider';
 
 const styles = theme => createStyles(
 {
@@ -53,17 +53,16 @@ const getHandleClass = editable => editable ? { className: "reorderHandle" } : {
 
 const ItemsReorder = ({ items, editable, classes, source, input, record }) =>
 {
+    // const getAlbums = () => 
+    // {
+    //     const albums = dataProvider.getMany('albums', { ids: [items] });
+    //     return albums;
+    // }
+
     const handleChange = (order) =>
     {
         input.onChange(order.map(o => input.value[o]));
     };
-
-    const QuestionText = ({ record: { name } }) => (
-        <span>
-            {name ? name : null}
-        </span>
-    );
-
 
     return <Paper className={classes.group}>
         <Sortable options={{ fallbackOnBody: true, group: "items", handle: reorderHandle }} tag="div" onChange={handleChange}>
@@ -72,8 +71,10 @@ const ItemsReorder = ({ items, editable, classes, source, input, record }) =>
                     <Badge badgeContent={index + 1} color="default">
                         {editable && <ReorderIcon />}
                     </Badge>}
-                />        
-                {editable && <TextInput source={`${source}.${item}.albumId`} disabled={true} /> } 
+                />   
+                {editable &&
+                    <TextInput source={`${source}[${item}]`} disabled={true} />
+                } 
             </Paper>)}
         </Sortable>
     </Paper>;

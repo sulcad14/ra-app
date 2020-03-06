@@ -3,6 +3,7 @@ import { YtbPlayer } from './YtbPlayer';
 import { DiscographySortField, DiscographySortInput } from './DiscographySortComponents';
 import { TracklistSortInput } from './TracklistSortComponents';
 import { JsonDrawer } from './JsonDrawer';
+import { ImageList } from './ImageList';
 
 export
 {
@@ -11,5 +12,6 @@ export
     DiscographySortInput,
     YtbPlayer,
     TracklistSortInput,
-    JsonDrawer
+    JsonDrawer,
+    ImageList
 }

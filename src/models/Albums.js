@@ -9,7 +9,7 @@ import
 } from 'react-admin';
 import AlbumIcon from '@material-ui/icons/Album';
 import { Actions } from '../customs';
-import { LinkField, YtbPlayer, TracklistSortInput } from '../components';
+import { LinkField, YtbPlayer, TracklistSortInput, ImageList } from '../components';
 
 const getSourceAndLabel = src =>
 ({
@@ -47,6 +47,7 @@ const AlbumFilter = (props) => (
 const AlbumList = props => (
     <List filters={<AlbumFilter />} actions={<Actions />} sort={{ field: 'name', order: 'ASC' }} {...props}>
         <Datagrid rowClick="show">
+            <ImageList />
             <TextField source="name" />
             <ReferenceField source="bandId" reference="bands" link="show">
                 <LinkField source="name" />

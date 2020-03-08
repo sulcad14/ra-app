@@ -1,14 +1,15 @@
 import React from 'react';
 import { addField } from 'ra-core';
 import { 
-    TextInput,
+    TextInput, TextField, FunctionField
 } from 'react-admin';
 import Sortable from 'react-sortablejs';
 import { withStyles, createStyles, Badge, Paper } from '@material-ui/core';
 import { Reorder as ReorderIcon, TextRotationAngleup } from '@material-ui/icons';
 import { ButtonHelper } from '../customs';
 import get from 'lodash/get';
-import { LinkField } from './';
+import { LinkField, ImageList, AlbumRatingField } from './';
+import { SimpleShowLayout } from 'ra-ui-materialui/lib/detail';
 // import dataProvider from '../providers/DataProvider';
 
 const styles = theme => createStyles(
@@ -65,25 +66,19 @@ const ItemsReorder = ({ items, editable, classes, source, input, record }) =>
     };
 
     return <Paper className={classes.group}>
-        <Sortable options={{ fallbackOnBody: true, group: "items", handle: reorderHandle }} tag="div" onChange={handleChange}>
-            {Object.keys(items).map((item, index) => <Paper key={index} data-id={item} className={classes.item} elevation={0}>
-                <ButtonHelper {...getHandleClass(editable)} icon={
-                    <Badge badgeContent={index + 1} color="default">
-                        {editable && <ReorderIcon />}
-                    </Badge>}
-                />   
-                {editable &&
-                    <TextInput source={`${source}[${item}]`} disabled={true} />
-                } 
-            </Paper>)}
-        </Sortable>
+        <SimpleShowLayout record={record}>
+            <ImageList source={record.img} addLabel={true} label="resources.albums.fields.img" />
+            <FunctionField label="resources.albums.fields.name" source={record.name} render={record => `${record.name}`} />
+            <AlbumRatingField source={record.rating} addLabel={true} label="resources.albums.fields.rating" />
+            <br></br>
+        </SimpleShowLayout>
     </Paper>;
 };
 
 
 const DiscographySortStyled = withStyles(styles)(({ classes, input, editable, record, source }) =>
 {
-    const items = editable ? (input.value || []) : get(record, source, []);
+    const items = record;
     return <ItemsReorder input={input} items={items} record={record} onChange={input && input.onChange} editable={editable} classes={classes} source={source} />;
 });
 

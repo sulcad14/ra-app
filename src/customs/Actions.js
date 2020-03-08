@@ -44,7 +44,7 @@ export class Actions extends React.Component
             exporter,
             */
         } = this.props;
-        
+
         const hasJson = Models[resource].hasOwnProperty('hasJson');
   
         return <TopToolbar>
@@ -62,8 +62,8 @@ export class Actions extends React.Component
                 filterValues,
                 context: 'button',
             }) }
-            {hasCreate && <CreateButton basePath={basePath} resource={resource} />}
-            {hasEdit && <EditButton basePath={basePath} record={data} to={this.createEditPath(basePath, data, currentPath)} />}
+            {hasCreate && <CreateButton style={{ color: '#262626' }} basePath={basePath} resource={resource} />}
+            {hasEdit && <EditButton style={{ color: '#262626' }} basePath={basePath} record={data} to={this.createEditPath(basePath, data, currentPath)} />}
             {hasJson && hasEdit && <JsonDrawer resource={resource} data={data} /> }
         </TopToolbar>;
     }

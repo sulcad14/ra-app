@@ -9,6 +9,7 @@
             "genreId": 1,
             "albumsIds": [1,2,3,4,5,6,7,8,9,10],
             "active": true,
+            "year": 1993,
             "img": "https://musicserver.cz/img/145750ts.jpg"
         },
         {
@@ -19,7 +20,8 @@
             "genreId": 2,
             "albumsIds": [11,12,13],
             "active": false,
-            "img": "https://www.spirit-of-metal.com/les%20goupes/D/Dissection%20(SWE)/pics/152683_logo.jpg"
+            "year": 1989,
+            "img": "https://lh3.googleusercontent.com/proxy/eFGtDSV__9PGdYf4SZYIlONBgWBniH5-ToEYnpqxvyzLBrNNXPJ8Ov4HdAfSftprKjZRAMBbqNrAMZnQEdHMBOs_"
         },
         {
             "id": "3",
@@ -27,9 +29,32 @@
             "desc": "PVRIS is an American rock band from Lowell, Massachusetts, formed by members Lynn Gunn, Alex Babinski, and Brian MacDonald. The band formed originally under the name Paris but later changed it to Pvris in the summer of 2013 citing legal reasons. They released a self-titled EP and an acoustic EP before signing to Rise and Velocity Records. They released the single 'St. Patrick' on June 24, 2014, along with a music video. They released their debut album, White Noise, in November 2014, and the deluxe version of White Noise on April 22, 2016. On August 25, 2017, they released their second album All We Know of Heaven, All We Need of Hell. They released their third EP, Hallucinations, on October 25, 2019.",
             "countryId": 3,
             "genreId": 3,
-            "albumsIds": [],
+            "albumsIds": [14,15,16],
             "active": true,
+            "year": 2012,
             "img": "https://diy-magazine.s3.amazonaws.com/d/diy/Artists/P/Pvris/Pvris_2019-0520-Rmid.jpg"
+        },
+        {
+            "id": "4",
+            "name": "Rotting Christ",
+            "desc": "Rotting Christ is a Greek black metal band formed in 1987. They are noted for being one of the first black metal bands within this region, as well as a premier act within the European underground metal scene.They are also responsible for creating the signature Greek black metal sound prevalent in the early 1990s.",
+            "countryId": 4,
+            "genreId": 4,
+            "albumsIds": [17,18,19,20,21,22,23,24,25,26,27,28,29],
+            "active": true,
+            "year": 1987,
+            "img": "https://www.spark-rockmagazine.cz/files/780892a571cbb3e01e65c829a23eab30.jpg"
+        },
+        {
+            "id": "5",
+            "name": "Mötley Crüe",
+            "desc": "Mötley Crüe is an American heavy metal band formed in Los Angeles, California, in 1981.The group was founded by bassist Nikki Sixx, drummer Tommy Lee, lead guitarist Mick Mars and lead singer Vince Neil. Mötley Crüe has sold over 100 million albums worldwide.They have also achieved seven platinum or multi-platinum certifications, nine Top 10 albums on the Billboard 200 chart (including 1989's Dr. Feelgood, which is Mötley Crüe's only album to reach number one), twenty-two Top 40 mainstream rock hits, and six Top 20 pop singles.",
+            "countryId": 3,
+            "genreId": 5,
+            "albumsIds": [30,31,32,33,34,35,36,37,38],
+            "active": true,
+            "year": 1981,
+            "img": "https://frontman.cz/sites/default/files/styles/clanek_full_810x540/public/3_5.jpg?itok=dNU-2Yyu"
         }
     ],
     "countries": 
@@ -45,6 +70,10 @@
         {
             "id": 3,
             "name": "USA"
+        },
+        {
+            "id": 4,
+            "name": "Greece"
         }
     ],
     "genres": 
@@ -66,6 +95,18 @@
             "name": "Alternative Rock",
             "desc": "Alternative rock (also called alternative music, alt-rock, alt-pop or simply alternative) is a term used to categorize rock music that emerged from the independent music underground of the 1970s and became widely popular in the 1980s.",
             "bandsIds": [3]
+        },
+        {
+            "id": 4,
+            "name": "Black Metal",
+            "desc": "Black metal is an extreme subgenre of heavy metal music. Common traits include fast tempos, a shrieking vocal style, heavily distorted guitars played with tremolo picking, raw (lo-fi) recording, unconventional song structures, and an emphasis on atmosphere. Artists often appear in corpse paint and adopt pseudonyms.",
+            "bandsIds": [4]
+        },
+        {
+            "id": 5,
+            "name": "L.A. Heavy Metal",
+            "desc": "Glam metal (often used synonymously with pop metal, or pejoratively as hair metal) is a subgenre of heavy metal, which features pop-influenced hooks and guitar riffs, and borrows heavily from the fashion and image of 1970s glam rock.",
+            "bandsIds": [5]
         }
     ],
     "albums": 
@@ -80,11 +121,51 @@
             "tracklist": 
             [
                 {
-                    "songName": "",
-                    "url": ""
+                    "songName": "Det Nye Riket",
+                    "url": "https://www.youtube.com/watch?v=8yFLlc5wxyw&list=OLAK5uy_mlIS3q2571o9YBI1a-aT9RD8lOAU1ZCzI&index=2&t=0s"
+                },
+                {
+                    "songName": "Under Korpens Vinger",
+                    "url": "https://www.youtube.com/watch?v=b2SePLcCjoI&list=OLAK5uy_mlIS3q2571o9YBI1a-aT9RD8lOAU1ZCzI&index=2"
+                },
+                {
+                    "songName": "Over Bleknede Blaner Til Dommedag",
+                    "url": "https://www.youtube.com/watch?v=G3RqT2RG-oY&list=OLAK5uy_mlIS3q2571o9YBI1a-aT9RD8lOAU1ZCzI&index=3"
+                },
+                {
+                    "songName": "Stien",
+                    "url": "https://www.youtube.com/watch?v=0UfSBQ-ZNJk&list=OLAK5uy_mlIS3q2571o9YBI1a-aT9RD8lOAU1ZCzI&index=4"
+                },
+                {
+                    "songName": "Glittertind",
+                    "url": "https://www.youtube.com/watch?v=JGqdugwMkag&list=OLAK5uy_mlIS3q2571o9YBI1a-aT9RD8lOAU1ZCzI&index=5"
+                },
+                {
+                    "songName": "For all Tid",
+                    "url": "https://www.youtube.com/watch?v=ffALaXclfYs&list=OLAK5uy_mlIS3q2571o9YBI1a-aT9RD8lOAU1ZCzI&index=6"
+                },
+                {
+                    "songName": "Hunnerkongens Sorgsvarte Ferd Over Steppene",
+                    "url": "https://www.youtube.com/watch?v=KvLs6fRUPEo&list=OLAK5uy_mlIS3q2571o9YBI1a-aT9RD8lOAU1ZCzI&index=7"
+                },
+                {
+                    "songName": "Raabjorn Speiler Draugheimens Skodde",
+                    "url": "https://www.youtube.com/watch?v=IqzfTzFF_Bs&list=OLAK5uy_mlIS3q2571o9YBI1a-aT9RD8lOAU1ZCzI&index=8"
+                },
+                {
+                    "songName": "Den Gjemte Sannhets Hersker",
+                    "url": "https://www.youtube.com/watch?v=kWJMSPqn5oU&list=OLAK5uy_mlIS3q2571o9YBI1a-aT9RD8lOAU1ZCzI&index=9"
+                },
+                {
+                    "songName": "Inn I Evighetens Morke, Pt. 1",
+                    "url": "https://www.youtube.com/watch?v=Y9GCx0MjTYA&list=OLAK5uy_mlIS3q2571o9YBI1a-aT9RD8lOAU1ZCzI&index=10"
+                },
+                {
+                    "songName": "Inn I Evighetens Morke, Pt. 2",
+                    "url": "https://www.youtube.com/watch?v=vxZ5baK0Q3g&list=OLAK5uy_mlIS3q2571o9YBI1a-aT9RD8lOAU1ZCzI&index=11"
                 }
             ],
-            "rating": "3"
+            "rating": 3
         },
         {
             "id": 2,
@@ -100,7 +181,7 @@
                     "url": ""
                 }
             ],
-            "rating": "2.5"
+            "rating": 2.5
         },
         {
             "id": 3,
@@ -120,7 +201,7 @@
                     "url": "https://www.youtube.com/watch?v=QA8lnyxp8QQ"
                 }
             ],
-            "rating": "4.5"
+            "rating": 4.5
         },
         {
             "id": 4,
@@ -135,7 +216,8 @@
                     "songName": "",
                     "url": ""
                 }
-            ]
+            ],
+            "rating": 3.5
         },
         {
             "id": 5,
@@ -150,7 +232,8 @@
                     "songName": "",
                     "url": ""
                 }
-            ]
+            ],
+            "rating": 4
         },
         {
             "id": 6,
@@ -165,7 +248,8 @@
                     "songName": "",
                     "url": ""
                 }
-            ]
+            ],
+            "rating": 4
         },
         {
             "id": 7,
@@ -180,7 +264,8 @@
                     "songName": "",
                     "url": ""
                 }
-            ]
+            ],
+            "rating": 4.5 
         },
         {
             "id": 8,
@@ -195,7 +280,8 @@
                     "songName": "",
                     "url": ""
                 }
-            ]
+            ],
+            "rating": 3.5
         },
         {
             "id": 9,
@@ -210,7 +296,8 @@
                     "songName": "",
                     "url": ""
                 }
-            ]
+            ],
+            "rating": 3
         },
         {
             "id": 10,
@@ -225,7 +312,8 @@
                     "songName": "",
                     "url": ""
                 }
-            ]
+            ],
+            "rating": 2.5
         },
         {
             "id": 11,
@@ -240,7 +328,8 @@
                     "songName": "",
                     "url": ""
                 }
-            ]
+            ],
+            "rating": 4
         },
         {
             "id": 12,
@@ -255,7 +344,8 @@
                     "songName": "",
                     "url": ""
                 }
-            ]
+            ],
+            "rating": 4.5
         },
         {
             "id": 13,
@@ -270,7 +360,408 @@
                     "songName": "",
                     "url": ""
                 }
-            ]
+            ],
+            "rating": 5
+        },
+        {
+            "id": 14,
+            "name": "White Noise",
+            "year": 2014,
+            "bandId": 3,
+            "genreId": 3,
+            "img": "https://www.bontonland.cz/image.php?image=/fotky/409/p-161104-full.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 4
+        },
+        {
+            "id": 15,
+            "name": "All We Know Of Heaven, All We Need Of Hell",
+            "year": 2017,
+            "bandId": 3,
+            "genreId": 3,
+            "img": "https://i.ebayimg.com/images/i/142482678522-0-1/s-l1000.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 4
+        },
+        {
+            "id": 16,
+            "name": "Hallucinations EP",
+            "year": 2019,
+            "bandId": 3,
+            "genreId": 3,
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Hallucinations-ep-cover.jpg/220px-Hallucinations-ep-cover.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3.5
+        },
+        {
+            "id": 17,
+            "name": "Thy Mighty Contract",
+            "year": 1993,
+            "bandId": 4,
+            "genreId": 4,
+            "img": "https://www.emp-shop.cz/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw6d908390/images/3/9/7/0/397004.jpg?sfrm=png",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 2.5
+        },
+        {
+            "id": 18,
+            "name": "Non Serviam",
+            "year": 1994,
+            "bandId": 4,
+            "genreId": 4,
+            "img": "https://img.discogs.com/vr6yNfUoq5khfaGp2a9JGQDDOxQ=/fit-in/600x601/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1714953-1433580182-6514.jpeg.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3
+        },
+        {
+            "id": 19,
+            "name": "Triarchy of the Lost Lovers",
+            "year": 1996,
+            "bandId": 4,
+            "genreId": 4,
+            "img": "https://supraphonline.cz/cover/200/2/4/a/257687.jpg?1469219764",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 5
+        },
+        {
+            "id": 20,
+            "name": "A Dead Poem",
+            "year": 1997,
+            "bandId": 4,
+            "genreId": 4,
+            "img": "https://upload.wikimedia.org/wikipedia/en/8/86/ADeadPoemRC.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 5
+        },
+        {
+            "id": 21,
+            "name": "Sleep of the Angels",
+            "year": 1999,
+            "bandId": 4,
+            "genreId": 4,
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/RottingChristSOTA.jpg/220px-RottingChristSOTA.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3.5
+        },
+        {
+            "id": 22,
+            "name": "Khronos",
+            "year": 2000,
+            "bandId": 4,
+            "genreId": 4,
+            "img": "https://upload.wikimedia.org/wikipedia/en/e/eb/Khronos.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3
+        },
+        {
+            "id": 23,
+            "name": "Genesis",
+            "year": 2002,
+            "bandId": 4,
+            "genreId": 4,
+            "img": "https://upload.wikimedia.org/wikipedia/en/4/4d/RottingChristGenesis.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3.5
+        },
+        {
+            "id": 24,
+            "name": "Sanctus Diavolos",
+            "year": 2004,
+            "bandId": 4,
+            "genreId": 4,
+            "img": "https://www.metal-archives.com/images/5/2/9/9/52990.jpg?5820",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 4
+        },
+        {
+            "id": 25,
+            "name": "Theogonia",
+            "year": 2007,
+            "bandId": 4,
+            "genreId": 4,
+            "img": "https://www.metal-archives.com/images/1/3/7/5/137587.JPG",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 2.5
+        },
+        {
+            "id": 26,
+            "name": "Aealo",
+            "year": 2010,
+            "bandId": 4,
+            "genreId": 4,
+            "img": "https://www.metal-archives.com/images/2/5/8/6/258628.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3
+        },
+        {
+            "id": 27,
+            "name": "Κατά τον δαίμονα εαυτού",
+            "year": 2013,
+            "bandId": 4,
+            "genreId": 4,
+            "img": "https://www.metal-archives.com/images/3/6/0/5/360530.jpg?1642",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3
+        },
+        {
+            "id": 28,
+            "name": "Rituals",
+            "year": 2016,
+            "bandId": 4,
+            "genreId": 4,
+            "img": "https://www.metal-archives.com/images/5/4/9/5/549531.jpg?1151",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 2.5
+        },
+        {
+            "id": 29,
+            "name": "The Heretics",
+            "year": 2019,
+            "bandId": 4,
+            "genreId": 4,
+            "img": "https://www.metal-archives.com/images/7/4/8/0/748008.jpeg?0218",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3
+        },
+        {
+            "id": 30,
+            "name": "Too Fast For Love",
+            "year": 1981,
+            "bandId": 5,
+            "genreId": 5,
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Too_Fast.jpg/220px-Too_Fast.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 4
+        },
+        {
+            "id": 31,
+            "name": "Shout at the Devil",
+            "year": 1983,
+            "bandId": 5,
+            "genreId": 5,
+            "img": "https://www.musicrecords.cz/upload/catalogue/image/original//big/a15634262721350151367.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 5
+        },
+        {
+            "id": 32,
+            "name": "Theatre of Pain",
+            "year": 1985,
+            "bandId": 5,
+            "genreId": 5,
+            "img": "https://townsquare.media/site/295/files/2016/12/Tonight-We-Need-A-Lover.jpg?w=980&q=75",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 4.5
+        },
+        {
+            "id": 33,
+            "name": "Girls Girls Girls",
+            "year": 1987,
+            "bandId": 5,
+            "genreId": 5,
+            "img": "https://images-na.ssl-images-amazon.com/images/I/91KqUlL-7vL._SY355_.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 4
+        },
+        {
+            "id": 34,
+            "name": "Dr. Feelgood",
+            "year": 1989,
+            "bandId": 5,
+            "genreId": 5,
+            "img": "https://images-na.ssl-images-amazon.com/images/I/717SDfHL0hL._SY355_.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 4
+        },
+        {
+            "id": 35,
+            "name": "Mötley Crüe",
+            "year": 1994,
+            "bandId": 5,
+            "genreId": 5,
+            "img": "https://www.metal-archives.com/images/4/7/8/7/4787.jpg?5642",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3
+        },
+        {
+            "id": 36,
+            "name": "Generation Swine",
+            "year": 1997,
+            "bandId": 5,
+            "genreId": 5,
+            "img": "https://www.metal-archives.com/images/4/7/8/9/4789.jpg?4732",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 2.5
+        },
+        {
+            "id": 37,
+            "name": "New Tattoo",
+            "year": 2000,
+            "bandId": 5,
+            "genreId": 5,
+            "img": "https://www.metal-archives.com/images/4/7/9/3/4793.jpg?4909",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 2.5
+        },
+        {
+            "id": 38,
+            "name": "Saints of Los Angeles",
+            "year": 2000,
+            "bandId": 5,
+            "genreId": 5,
+            "img": "https://www.metal-archives.com/images/1/9/8/7/198718.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3.5
         }
     ]
 }

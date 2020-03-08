@@ -64,7 +64,7 @@ const ItemsReorder = ({ items, editable, classes, source, input, record }) =>
                         {editable && <ReorderIcon />}
                     </Badge>}
                 />
-                {editable && <TextInput source={`${source}.${item}.songName`} disabled={true} /> }               
+                {editable && <TextInput label="resources.albums.fields.tracklist.songName" source={`${source}.${item}.songName`} disabled={true} /> }               
             </Paper>)}
         </Sortable>
     </Paper>;

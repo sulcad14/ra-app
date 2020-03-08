@@ -9,6 +9,7 @@
                 "id": "ID",
                 "name": "Name",
                 "desc": "Description",
+                "year": "Year of formation",
                 "countryId": "Country of origin",
                 "genreId": "Genre",
                 "albumsIds": "Discography",

@@ -15,6 +15,10 @@ const styles =
     {
         width: '400px',
         margin: '1em'
+    },
+    openButtonStyle: 
+    {
+        color: "#262626"
     }
 };
 
@@ -55,7 +59,7 @@ const JsonDrawerBase = ({ source, record, input, data, resource }) =>
 
     return (
         <div>
-            <Button label="custom.editJson" onClick={() => handleOpenClick()}>
+            <Button label="custom.editJson" style={styles.openButtonStyle} onClick={() => handleOpenClick()}>
                 <EditIcon />
             </Button>
 

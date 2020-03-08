@@ -47,6 +47,7 @@ const BandShow = props => (
                 <TextField source="name" />
                 <RichTextField source="desc" />
                 <BooleanField source="active" />
+                <TextField source="year" />
                 <ReferenceField source="countryId" reference="countries" link="show">
                     <LinkField source="name" />
                 </ReferenceField>
@@ -61,7 +62,11 @@ const BandShow = props => (
                 <ImageField source="img" />
             </Tab>
             <Tab label="ranked" path="ranked">
-                <DiscographySortField source="albumsIds" />
+                <ReferenceArrayField source="albumsIds" reference="albums">
+                    <SingleFieldList linkType="show">
+                        <DiscographySortField source="albumsIds" />
+                    </SingleFieldList>
+                </ReferenceArrayField>
             </Tab>
         </TabbedShowLayout>
     </Show>
@@ -75,6 +80,7 @@ const BandEdit = props => (
                 <TextInput source="name" />
                 <TextInput source="desc" multiline />
                 <BooleanInput source="active" />
+                <TextInput source="year" />
                 <ReferenceInput source="countryId" reference="countries" allowEmpty>
                     <SelectInput optionText="name" />
                 </ReferenceInput>

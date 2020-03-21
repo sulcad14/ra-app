@@ -1,7 +1,7 @@
 import React from 'react';
 import { addField } from 'ra-core';
 import { 
-    TextInput, TextField, FunctionField
+    TextInput, TextField, FunctionField, SimpleShowLayout
 } from 'react-admin';
 import Sortable from 'react-sortablejs';
 import { withStyles, createStyles, Badge, Paper } from '@material-ui/core';
@@ -9,8 +9,6 @@ import { Reorder as ReorderIcon, TextRotationAngleup } from '@material-ui/icons'
 import { ButtonHelper } from '../customs';
 import get from 'lodash/get';
 import { LinkField, ImageList, AlbumRatingField } from './';
-import { SimpleShowLayout } from 'ra-ui-materialui/lib/detail';
-// import dataProvider from '../providers/DataProvider';
 
 const styles = theme => createStyles(
 {
@@ -54,12 +52,6 @@ const getHandleClass = editable => editable ? { className: "reorderHandle" } : {
 
 const ItemsReorder = ({ items, editable, classes, source, input, record }) =>
 {
-    // const getAlbums = () => 
-    // {
-    //     const albums = dataProvider.getMany('albums', { ids: [items] });
-    //     return albums;
-    // }
-
     const handleChange = (order) =>
     {
         input.onChange(order.map(o => input.value[o]));
@@ -78,7 +70,7 @@ const ItemsReorder = ({ items, editable, classes, source, input, record }) =>
 
 const DiscographySortStyled = withStyles(styles)(({ classes, input, editable, record, source }) =>
 {
-    const items = record;
+    const items = record; 
     return <ItemsReorder input={input} items={items} record={record} onChange={input && input.onChange} editable={editable} classes={classes} source={source} />;
 });
 

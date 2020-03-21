@@ -55,6 +55,28 @@
             "active": true,
             "year": 1981,
             "img": "https://frontman.cz/sites/default/files/styles/clanek_full_810x540/public/3_5.jpg?itok=dNU-2Yyu"
+        },
+        {
+            "id": "6",
+            "name": "Asking Alexandria",
+            "desc": "Asking Alexandria are a British metalcore band from York, North Yorkshire, consisting of guitarists Ben Bruce and Cameron Liddell, drummer James Cassells, lead vocalist Danny Worsnop, and bassist Sam Bettley.",
+            "countryId": 5,
+            "genreId": 6,
+            "albumsIds": [39,40,41,42,43],
+            "active": true,
+            "year": 2006,
+            "img": "https://lh3.googleusercontent.com/proxy/fyENiItdNuYdEoq1ZsIBkwXY8EBSMnCO5IhCLqFX99JvQ9y-6nahY4Ryw6pcP8mHwxNDNRx7RjE"
+        },
+        {
+            "id": "7",
+            "name": "Ratt",
+            "desc": "Ratt is an American heavy metal band that had significant commercial success in the 1980s, with their albums having been certified as gold, platinum, and multi-platinum by the RIAA. The group is perhaps best known for hit singles such as 'Round and Round' and 'Lay It Down', tracks that ranked on Billboard's top 40 at No. 12 and No. 40, respectively, as well as other songs such as 'Wanted Man', 'You're in Love' and 'Dance'. Along with groups such as friendly rivals Mötley Crüe, Ratt has been recognized as instrumental in the formation of the early 1980s Los Angeles glam metal scene, also known as 'LA hair metal'.",
+            "countryId": 3,
+            "genreId": 5,
+            "albumsIds": [44,45,46,47,48,49,50],
+            "active": true,
+            "year": 1981,
+            "img": "https://metalforever.info/pic/rec2/ratt_group86.jpg"
         }
     ],
     "countries": 
@@ -74,6 +96,10 @@
         {
             "id": 4,
             "name": "Greece"
+        },
+        {
+            "id": 5,
+            "name": "United Kingdom"
         }
     ],
     "genres": 
@@ -106,7 +132,13 @@
             "id": 5,
             "name": "L.A. Heavy Metal",
             "desc": "Glam metal (often used synonymously with pop metal, or pejoratively as hair metal) is a subgenre of heavy metal, which features pop-influenced hooks and guitar riffs, and borrows heavily from the fashion and image of 1970s glam rock.",
-            "bandsIds": [5]
+            "bandsIds": [5,7]
+        },
+        {
+            "id": 6,
+            "name": "Metalcore",
+            "desc": "Metalcore is a fusion music genre that combines elements of extreme metal and hardcore punk together. Among other styles blending metal and hardcore, such as crust punk and grindcore, metalcore is noted for its use of breakdowns, which are slow, intense passages conducive to moshing.",
+            "bandsIds": [6]
         }
     ],
     "albums": 
@@ -854,7 +886,7 @@
         {
             "id": 38,
             "name": "Saints of Los Angeles",
-            "year": 2000,
+            "year": 2008,
             "bandId": 5,
             "genreId": 5,
             "img": "https://www.metal-archives.com/images/1/9/8/7/198718.jpg",
@@ -866,6 +898,198 @@
                 }
             ],
             "rating": 3.5
+        },
+        {
+            "id": 39,
+            "name": "Stand Up and Scream",
+            "year": 2009,
+            "bandId": 6,
+            "genreId": 6,
+            "img": "https://www.musicrecords.cz/upload/catalogue/image/original//big/a15052057671193590964.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3
+        },
+        {
+            "id": 40,
+            "name": "Reckless & Relentless",
+            "year": 2011,
+            "bandId": 6,
+            "genreId": 6,
+            "img": "https://www.musicrecords.cz/upload/catalogue/image/original//big/a15051366191136407746.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3.5
+        },
+        {
+            "id": 41,
+            "name": "From Death to Destiny",
+            "year": 2013,
+            "bandId": 6,
+            "genreId": 6,
+            "img": "https://im9.cz/iR/importprodukt-orig/6b2/6b2ff0563c9a49f1bcb5bd0d9e30413c--mmf250x250.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3.5
+        },
+        {
+            "id": 42,
+            "name": "The Black",
+            "year": 2016,
+            "bandId": 6,
+            "genreId": 6,
+            "img": "https://im9.cz/iR/importprodukt-orig/069/069d8946eccab9eb7fbcb9a3a8501640--mmf250x250.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 2.5
+        },
+        {
+            "id": 43,
+            "name": "Asking Alexandria",
+            "year": 2017,
+            "bandId": 6,
+            "genreId": 6,
+            "img": "https://media.altpress.com/uploads/2018/07/ASKING_ALEXANDRIA_-_ASKING_ALEXANDRIA.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 2
+        },
+        {
+            "id": 44,
+            "name": "Out of the Cellar",
+            "year": 1984,
+            "bandId": 7,
+            "genreId": 5,
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/d/da/RattOutoftheCellar.jpg/220px-RattOutoftheCellar.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 5
+        },
+        {
+            "id": 45,
+            "name": "Invasion of Your Privacy",
+            "year": 1985,
+            "bandId": 7,
+            "genreId": 5,
+            "img": "https://www.phono.cz/vimage/1000x1000/data/image/zbozi/ratt-invasion-of-your-privacy.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 5
+        },
+        {
+            "id": 46,
+            "name": "Dancin' Undercover",
+            "year": 1986,
+            "bandId": 7,
+            "genreId": 5,
+            "img": "https://images-na.ssl-images-amazon.com/images/I/81zIDwzNoAL._SL1425_.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 4.5
+        },
+        {
+            "id": 47,
+            "name": "Reach For the Sky",
+            "year": 1988,
+            "bandId": 7,
+            "genreId": 5,
+            "img": "https://upload.wikimedia.org/wikipedia/en/e/e1/ReachForThesky.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3.5
+        },
+        {
+            "id": 48,
+            "name": "Detonator",
+            "year": 1990,
+            "bandId": 7,
+            "genreId": 5,
+            "img": "https://images-na.ssl-images-amazon.com/images/I/81uY-0iIfCL._SL1064_.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 4
+        },
+        {
+            "id": 49,
+            "name": "Ratt",
+            "year": 1999,
+            "bandId": 7,
+            "genreId": 5,
+            "img": "https://upload.wikimedia.org/wikipedia/en/2/2d/Rattalb.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 2.5
+        },
+        {
+            "id": 50,
+            "name": "Infestation",
+            "year": 2010,
+            "bandId": 7,
+            "genreId": 5,
+            "img": "https://m.media-amazon.com/images/I/81JJFwqR1BL._SS500_.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3
         }
     ]
 }

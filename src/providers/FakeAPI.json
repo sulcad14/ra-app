@@ -21,7 +21,7 @@
             "albumsIds": [11,12,13],
             "active": false,
             "year": 1989,
-            "img": "https://lh3.googleusercontent.com/proxy/eFGtDSV__9PGdYf4SZYIlONBgWBniH5-ToEYnpqxvyzLBrNNXPJ8Ov4HdAfSftprKjZRAMBbqNrAMZnQEdHMBOs_"
+            "img": "https://www.spirit-of-metal.com/les%20goupes/D/Dissection%20(SWE)/pics/152683_logo.jpg"
         },
         {
             "id": "3",
@@ -65,7 +65,7 @@
             "albumsIds": [39,40,41,42,43],
             "active": true,
             "year": 2006,
-            "img": "https://lh3.googleusercontent.com/proxy/fyENiItdNuYdEoq1ZsIBkwXY8EBSMnCO5IhCLqFX99JvQ9y-6nahY4Ryw6pcP8mHwxNDNRx7RjE"
+            "img": "https://www.fullmoonzine.cz/files/74957b3761e465c1fd3848fc93392117.jpg"
         },
         {
             "id": "7",
@@ -77,6 +77,50 @@
             "active": true,
             "year": 1981,
             "img": "https://metalforever.info/pic/rec2/ratt_group86.jpg"
+        },
+        {
+            "id": "8",
+            "name": "Behemoth",
+            "desc": "Behemoth is a Polish extreme metal band from Gdańsk, formed in 1991. They are considered to have played an important role in establishing the Polish extreme metal underground.Until the late 1990s, the band played a traditional black metal style with heathen lyrical content, but soon changed to that of occult and thelemic themes written by their lead vocalist Nergal and Krzysztof Azarewicz. With the 1999 release of Satanica, the band demonstrated their presence in the death metal scene, while retaining their own signature style.",
+            "countryId": 6,
+            "genreId": 2,
+            "albumsIds": [51,52,53,54,55,56,57,58,59,60,61],
+            "active": true,
+            "year": 1991,
+            "img": "https://ct24.ceskatelevize.cz/sites/default/files/styles/file-video_16x9/public/behemoth.jpg?itok=na0luO5z"
+        },
+        {
+            "id": "9",
+            "name": "Emperor",
+            "desc": "Emperor is a Norwegian black metal band formed in 1991, regarded as highly influential by critics and emerging black metal bands.The group split up in 2001, but reunited from 2005 to 2007 for a few festival dates and brief US tours, and again reunited in 2013 to 2014. Emperor reformed for the third time in 2016.",
+            "countryId": 1,
+            "genreId": 1,
+            "albumsIds": [62,63,64,65],
+            "active": false,
+            "year": 1991,
+            "img": "https://cdn.mos.cms.futurecdn.net/HbwxsQSDWEXsp8TS64LChD.jpg"
+        },
+        {
+            "id": "10",
+            "name": "Whitesnake",
+            "desc": "Whitesnake are a hard rock band formed in England in 1978 by David Coverdale, after his departure from his previous band Deep Purple. Their early material has been compared by critics to the blues rock of Deep Purple, but they slowly began moving toward a more commercially accessible rock style.By the turn of the decade, the band's commercial fortunes changed and they released a string of UK top 10 albums, Ready an' Willing (1980), Come an' Get It (1981), Saints & Sinners (1982) and Slide It In (1984), the last of which was their first to chart in the US and is certified 2x platinum.",
+            "countryId": 5,
+            "genreId": 5,
+            "albumsIds": [66,67,68,69,70,71,72,73,74,75,76],
+            "active": true,
+            "year": 1978,
+            "img": "https://coolaccidents.wmg-gardens.com/sites/g/files/g2000007366/files/2018-06/tinymce_file__d4fb313d4cbcafdb3b805e3ab851e80842a30a05.jpeg"
+        },
+        {
+            "id": "11",
+            "name": "Escape the Fate",
+            "desc": "Escape the Fate is an American rock band from Las Vegas, Nevada, formed in 2004 and originally from Pahrump, Nevada. They are signed to Eleven Seven Music. The group consists of Robert Ortiz (drummer), Craig Mabbitt (lead vocalist), TJ Bell (rhythm guitarist and vocalist), Kevin 'Thrasher' Gruft (lead guitarist) and touring musician Erik Jensen (bassist). As of 2013, Ortiz is the last founding member in the current lineup of the group.",
+            "countryId": 3,
+            "genreId": 8,
+            "albumsIds": [77,78,79,80,81,82],
+            "active": true,
+            "year": 2004,
+            "img": "https://www.rockandpop.cz/wp-content/uploads/2018/03/escape.jpeg"
         }
     ],
     "countries": 
@@ -100,6 +144,10 @@
         {
             "id": 5,
             "name": "United Kingdom"
+        },
+        {
+            "id": 6,
+            "name": "Poland"
         }
     ],
     "genres": 
@@ -108,13 +156,13 @@
             "id": 1,
             "name": "Symphonic Black Metal",
             "desc": "Symphonic black metal is a sub-genre of black metal that emerged in the 1990s and incorporates symphonic and orchestral elements. Notable symphonic black metal bands include Dimmu Borgir, Emperor and Cradle of Filth.",
-            "bandsIds": [1]
+            "bandsIds": [1,9]
         },
         {
             "id": 2,
             "name": "Blackened Death Metal",
             "desc": "Blackened death metal (also known as black death metal) is an extreme subgenre of heavy metal that fuses elements of black metal and death metal.",
-            "bandsIds": [2]
+            "bandsIds": [2,8]
         },
         {
             "id": 3,
@@ -126,19 +174,31 @@
             "id": 4,
             "name": "Black Metal",
             "desc": "Black metal is an extreme subgenre of heavy metal music. Common traits include fast tempos, a shrieking vocal style, heavily distorted guitars played with tremolo picking, raw (lo-fi) recording, unconventional song structures, and an emphasis on atmosphere. Artists often appear in corpse paint and adopt pseudonyms.",
-            "bandsIds": [4]
+            "bandsIds": [4,9]
         },
         {
             "id": 5,
             "name": "L.A. Heavy Metal",
             "desc": "Glam metal (often used synonymously with pop metal, or pejoratively as hair metal) is a subgenre of heavy metal, which features pop-influenced hooks and guitar riffs, and borrows heavily from the fashion and image of 1970s glam rock.",
-            "bandsIds": [5,7]
+            "bandsIds": [5,7,10]
         },
         {
             "id": 6,
             "name": "Metalcore",
             "desc": "Metalcore is a fusion music genre that combines elements of extreme metal and hardcore punk together. Among other styles blending metal and hardcore, such as crust punk and grindcore, metalcore is noted for its use of breakdowns, which are slow, intense passages conducive to moshing.",
             "bandsIds": [6]
+        },
+        {
+            "id": 7,
+            "name": "Blues Rock",
+            "desc": "Blues rock is a fusion genre combining elements of blues and rock. It is mostly an electric ensemble-style music with instrumentation similar to electric blues and rock: electric guitar, electric bass guitar, and drums, sometimes with keyboards and harmonica. From its beginnings in the early- to mid-1960s, blues rock has gone through several stylistic shifts and along the way it inspired and influenced hard rock, Southern rock, and early heavy metal.",
+            "bandsIds": [10]
+        },
+        {
+            "id": 8,
+            "name": "Post-Hardcore",
+            "desc": "Post-hardcore is a punk rock music genre that maintains the aggression and intensity of hardcore punk but emphasizes a greater degree of creative expression initially inspired by post-punk and noise rock. Like post-punk, the term has been applied to a broad constellation of groups.",
+            "bandsIds": [11]
         }
     ],
     "albums": 
@@ -1090,6 +1150,518 @@
                 }
             ],
             "rating": 3
+        },
+        {
+            "id": 51,
+            "name": "Sventevith (Storming Near the Baltic)",
+            "year": 1995,
+            "bandId": 8,
+            "genreId": 2,
+            "img": "https://www.metal-archives.com/images/1/0/5/7/1057.jpg?3052",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3
+        },
+        {
+            "id": 52,
+            "name": "Grom",
+            "year": 1996,
+            "bandId": 8,
+            "genreId": 2,
+            "img": "https://www.metal-archives.com/images/1/0/5/9/1059.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 4
+        },
+        {
+            "id": 53,
+            "name": "Pandemonic Incantations",
+            "year": 1998,
+            "bandId": 8,
+            "genreId": 2,
+            "img": "https://www.metal-archives.com/images/1/0/6/0/1060.jpg?2748",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3.5
+        },
+        {
+            "id": 54,
+            "name": "Satanica",
+            "year": 1999,
+            "bandId": 8,
+            "genreId": 2,
+            "img": "https://www.metal-archives.com/images/1/0/6/1/1061.jpg?4645",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 4
+        },
+        {
+            "id": 55,
+            "name": "Thelema.6",
+            "year": 2000,
+            "bandId": 8,
+            "genreId": 2,
+            "img": "https://www.metal-archives.com/images/1/0/6/2/1062.jpg?0257",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3
+        },
+        {
+            "id": 56,
+            "name": "Zos Kia Cultus (Here and Beyond)",
+            "year": 2002,
+            "bandId": 8,
+            "genreId": 2,
+            "img": "https://www.metal-archives.com/images/1/0/9/0/10903.jpg?5649",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 4
+        },
+        {
+            "id": 57,
+            "name": "Demigod",
+            "year": 2004,
+            "bandId": 8,
+            "genreId": 2,
+            "img": "https://www.metal-archives.com/images/5/3/3/4/53348.jpg?2727",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 4.5
+        },
+        {
+            "id": 58,
+            "name": "The Apostasy",
+            "year": 2007,
+            "bandId": 8,
+            "genreId": 2,
+            "img": "https://www.metal-archives.com/images/1/5/3/9/153926.jpg?4205",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 4
+        },
+        {
+            "id": 59,
+            "name": "Evangelion",
+            "year": 2009,
+            "bandId": 8,
+            "genreId": 2,
+            "img": "https://www.metal-archives.com/images/2/3/8/3/238397.jpg?0650",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 4
+        },
+        {
+            "id": 60,
+            "name": "The Satanist",
+            "year": 2014,
+            "bandId": 8,
+            "genreId": 2,
+            "img": "https://www.metal-archives.com/images/3/9/5/4/395440.jpg?2438",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 5
+        },
+        {
+            "id": 61,
+            "name": "I Loved You at Your Darkest",
+            "year": 2014,
+            "bandId": 8,
+            "genreId": 2,
+            "img": "https://www.metal-archives.com/images/7/2/7/1/727109.jpg?2954",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3.5
+        },
+        {
+            "id": 62,
+            "name": "In the Nightside Eclipse",
+            "year": 1994,
+            "bandId": 9,
+            "genreId": 1,
+            "img": "https://www.metal-archives.com/images/9/3/93.jpg?1311",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 5
+        },
+        {
+            "id": 63,
+            "name": "Anthems to the Welkin at Dusk",
+            "year": 1997,
+            "bandId": 9,
+            "genreId": 1,
+            "img": "https://www.metal-archives.com/images/9/2/92.jpg?2148",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 4.5
+        },
+        {
+            "id": 64,
+            "name": "IX Equilibrium",
+            "year": 1999,
+            "bandId": 9,
+            "genreId": 1,
+            "img": "https://www.metal-archives.com/images/9/6/96.jpg?0946",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3.5
+        },
+        {
+            "id": 65,
+            "name": "Prometheus - The Discipline of Fire & Demise",
+            "year": 2001,
+            "bandId": 9,
+            "genreId": 1,
+            "img": "https://www.metal-archives.com/images/9/0/90.jpg?5409",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 4
+        },
+        {
+            "id": 66,
+            "name": "Trouble",
+            "year": 1978,
+            "bandId": 10,
+            "genreId": 7,
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/WSTroubleCD.jpg/220px-WSTroubleCD.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 2
+        },
+        {
+            "id": 67,
+            "name": "Lovehunter",
+            "year": 1979,
+            "bandId": 10,
+            "genreId": 7,
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Whitesnake_-_Lovehunter.jpg/220px-Whitesnake_-_Lovehunter.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 2.5
+        },
+        {
+            "id": 68,
+            "name": "Ready an' Willing",
+            "year": 1980,
+            "bandId": 10,
+            "genreId": 7,
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Whitesnake_-_Ready_An%27_Willing_album_cover.jpg/220px-Whitesnake_-_Ready_An%27_Willing_album_cover.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 2.5
+        },
+        {
+            "id": 69,
+            "name": "Come an' Get It",
+            "year": 1981,
+            "bandId": 10,
+            "genreId": 7,
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/ComeAnGetIt.jpg/220px-ComeAnGetIt.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3
+        },
+        {
+            "id": 70,
+            "name": "Saints & Sinners",
+            "year": 1982,
+            "bandId": 10,
+            "genreId": 7,
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Whitesnake-saints.jpg/220px-Whitesnake-saints.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3
+        },
+        {
+            "id": 71,
+            "name": "Slide It In",
+            "year": 1984,
+            "bandId": 10,
+            "genreId": 5,
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/Slide_It_In_%28Whitesnake_album_-_cover_art%29.jpg/220px-Slide_It_In_%28Whitesnake_album_-_cover_art%29.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 4.5
+        },
+        {
+            "id": 72,
+            "name": "Whitesnake",
+            "year": 1987,
+            "bandId": 10,
+            "genreId": 5,
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/Whitesnake_%28album%29.jpg/220px-Whitesnake_%28album%29.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 5
+        },
+        {
+            "id": 73,
+            "name": "Slip of the Tongue",
+            "year": 1989,
+            "bandId": 10,
+            "genreId": 5,
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/8/89/Slip_of_the_tongue.jpg/220px-Slip_of_the_tongue.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 5
+        },
+        {
+            "id": 74,
+            "name": "Good to Be Bad",
+            "year": 2008,
+            "bandId": 10,
+            "genreId": 5,
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Good_to_be_bad.jpg/220px-Good_to_be_bad.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 2.5
+        },
+        {
+            "id": 75,
+            "name": "Forevermore",
+            "year": 2011,
+            "bandId": 10,
+            "genreId": 5,
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/Whitesnake_Forevermore.jpg/220px-Whitesnake_Forevermore.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3
+        },
+        {
+            "id": 76,
+            "name": "Flesh & Blood",
+            "year": 2019,
+            "bandId": 10,
+            "genreId": 5,
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Whitesnake_-_Flesh_and_Blood.png/220px-Whitesnake_-_Flesh_and_Blood.png",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3
+        },
+        {
+            "id": 77,
+            "name": "Dying Is Your Latest Fashion",
+            "year": 2006,
+            "bandId": 11,
+            "genreId": 8,
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Dyingisyourlatestfashionescapethefate.jpg/220px-Dyingisyourlatestfashionescapethefate.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 4.5
+        },
+        {
+            "id": 78,
+            "name": "This War Is Ours",
+            "year": 2008,
+            "bandId": 11,
+            "genreId": 8,
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Escapethefate-thiswarisours.jpg/220px-Escapethefate-thiswarisours.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 4
+        },
+        {
+            "id": 79,
+            "name": "Escape the Fate",
+            "year": 2010,
+            "bandId": 11,
+            "genreId": 8,
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Escape_The_Fate_Cover.jpg/220px-Escape_The_Fate_Cover.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3
+        },
+        {
+            "id": 80,
+            "name": "Ungrateful",
+            "year": 2013,
+            "bandId": 11,
+            "genreId": 8,
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Etf_ungrateful_cover.png/220px-Etf_ungrateful_cover.png",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 3.5
+        },
+        {
+            "id": 81,
+            "name": "Hate Me",
+            "year": 2015,
+            "bandId": 11,
+            "genreId": 8,
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Hate_Me_%28Escape_the_Fate_album%29.jpeg/220px-Hate_Me_%28Escape_the_Fate_album%29.jpeg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 2
+        },
+        {
+            "id": 82,
+            "name": "I Am Human",
+            "year": 2018,
+            "bandId": 11,
+            "genreId": 8,
+            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/EscapetheFate_Human.jpg/220px-EscapetheFate_Human.jpg",
+            "tracklist": 
+            [
+                {
+                    "songName": "",
+                    "url": ""
+                }
+            ],
+            "rating": 2.5
         }
     ]
 }

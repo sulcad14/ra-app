@@ -62,11 +62,7 @@ const BandShow = props => (
                 <ImageField source="img" />
             </Tab>
             <Tab label="ranked" path="ranked">
-                <ReferenceArrayField source="albumsIds" reference="albums">
-                    <SingleFieldList linkType="show">
-                        <DiscographySortField source="albumsIds" />
-                    </SingleFieldList>
-                </ReferenceArrayField>
+                <DiscographySortField source="albumsIds" />
             </Tab>
         </TabbedShowLayout>
     </Show>

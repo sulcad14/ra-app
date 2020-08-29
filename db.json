@@ -121,6 +121,10 @@
             "active": true,
             "year": 2004,
             "img": "https://www.rockandpop.cz/wp-content/uploads/2018/03/escape.jpeg"
+        },
+        {
+            "id": "12",
+            "name": "test"
         }
     ]
 }

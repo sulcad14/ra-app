@@ -1,0 +1,126 @@
+{
+    "bands": 
+    [
+        {
+            "id": "1",
+            "name": "Dimmu Borgir",
+            "desc": "Dimmu Borgir (/ˌdɪmuː ˈbɔːrɡɪər/) is a Norwegian symphonic black metal band from Oslo, Norway, formed in 1993. The name is derived from Dimmuborgir, a volcanic formation in Iceland, the name of which means 'dark cities' or 'dark castles/fortresses' in Icelandic, Faroese and Old Norse. The band has been through numerous lineup changes over the years; vocalist Shagrath and rhythm guitarist Silenoz are the only original members who still remain, with lead guitarist Galder being a longstanding member.",
+            "countryId": 1,
+            "genreId": 1,
+            "albumsIds": [1,2,3,4,5,6,7,8,9,10],
+            "active": true,
+            "year": 1993,
+            "img": "https://musicserver.cz/img/145750ts.jpg"
+        },
+        {
+            "id": "2",
+            "name": "Dissection",
+            "desc": "Dissection was a Swedish extreme metal band from Strömstad, formed in 1989 by guitarist, vocalist and main songwriter Jon Nödtveidt and bass guitarist Peter Palmdahl. Despite a number of lineup changes, Dissection released The Somberlain in 1993 and Storm of the Light's Bane in 1995, before splitting up in 1997 due to Nödtveidt's imprisonment for complicity in the murder of Josef Meddour.After his release, Nödtveidt reformed the band in 2004 with new members whom he felt could 'stand behind and live up to the demands of Dissection's Satanic concept.'They released their third and final full-length album Reinkaos in April 2006, before disbanding that June. Nödtveidt said he had 'reached the limitations of music as a tool for expressing what I want to express, for myself and the handful of others that I care about.'Two months later, Nödtveidt committed suicide with a gun inside a circle of lit candles in his apartment in Hässelby.",
+            "countryId": 2,
+            "genreId": 2,
+            "albumsIds": [11,12,13],
+            "active": false,
+            "year": 1989,
+            "img": "https://www.spirit-of-metal.com/les%20goupes/D/Dissection%20(SWE)/pics/152683_logo.jpg"
+        },
+        {
+            "id": "3",
+            "name": "PVRIS",
+            "desc": "PVRIS is an American rock band from Lowell, Massachusetts, formed by members Lynn Gunn, Alex Babinski, and Brian MacDonald. The band formed originally under the name Paris but later changed it to Pvris in the summer of 2013 citing legal reasons. They released a self-titled EP and an acoustic EP before signing to Rise and Velocity Records. They released the single 'St. Patrick' on June 24, 2014, along with a music video. They released their debut album, White Noise, in November 2014, and the deluxe version of White Noise on April 22, 2016. On August 25, 2017, they released their second album All We Know of Heaven, All We Need of Hell. They released their third EP, Hallucinations, on October 25, 2019.",
+            "countryId": 3,
+            "genreId": 3,
+            "albumsIds": [14,15,16],
+            "active": true,
+            "year": 2012,
+            "img": "https://diy-magazine.s3.amazonaws.com/d/diy/Artists/P/Pvris/Pvris_2019-0520-Rmid.jpg"
+        },
+        {
+            "id": "4",
+            "name": "Rotting Christ",
+            "desc": "Rotting Christ is a Greek black metal band formed in 1987. They are noted for being one of the first black metal bands within this region, as well as a premier act within the European underground metal scene.They are also responsible for creating the signature Greek black metal sound prevalent in the early 1990s.",
+            "countryId": 4,
+            "genreId": 4,
+            "albumsIds": [17,18,19,20,21,22,23,24,25,26,27,28,29],
+            "active": true,
+            "year": 1987,
+            "img": "https://www.spark-rockmagazine.cz/files/780892a571cbb3e01e65c829a23eab30.jpg"
+        },
+        {
+            "id": "5",
+            "name": "Mötley Crüe",
+            "desc": "Mötley Crüe is an American heavy metal band formed in Los Angeles, California, in 1981.The group was founded by bassist Nikki Sixx, drummer Tommy Lee, lead guitarist Mick Mars and lead singer Vince Neil. Mötley Crüe has sold over 100 million albums worldwide.They have also achieved seven platinum or multi-platinum certifications, nine Top 10 albums on the Billboard 200 chart (including 1989's Dr. Feelgood, which is Mötley Crüe's only album to reach number one), twenty-two Top 40 mainstream rock hits, and six Top 20 pop singles.",
+            "countryId": 3,
+            "genreId": 5,
+            "albumsIds": [30,31,32,33,34,35,36,37,38],
+            "active": true,
+            "year": 1981,
+            "img": "https://frontman.cz/sites/default/files/styles/clanek_full_810x540/public/3_5.jpg?itok=dNU-2Yyu"
+        },
+        {
+            "id": "6",
+            "name": "Asking Alexandria",
+            "desc": "Asking Alexandria are a British metalcore band from York, North Yorkshire, consisting of guitarists Ben Bruce and Cameron Liddell, drummer James Cassells, lead vocalist Danny Worsnop, and bassist Sam Bettley.",
+            "countryId": 5,
+            "genreId": 6,
+            "albumsIds": [39,40,41,42,43],
+            "active": true,
+            "year": 2006,
+            "img": "https://www.fullmoonzine.cz/files/74957b3761e465c1fd3848fc93392117.jpg"
+        },
+        {
+            "id": "7",
+            "name": "Ratt",
+            "desc": "Ratt is an American heavy metal band that had significant commercial success in the 1980s, with their albums having been certified as gold, platinum, and multi-platinum by the RIAA. The group is perhaps best known for hit singles such as 'Round and Round' and 'Lay It Down', tracks that ranked on Billboard's top 40 at No. 12 and No. 40, respectively, as well as other songs such as 'Wanted Man', 'You're in Love' and 'Dance'. Along with groups such as friendly rivals Mötley Crüe, Ratt has been recognized as instrumental in the formation of the early 1980s Los Angeles glam metal scene, also known as 'LA hair metal'.",
+            "countryId": 3,
+            "genreId": 5,
+            "albumsIds": [44,45,46,47,48,49,50],
+            "active": true,
+            "year": 1981,
+            "img": "https://metalforever.info/pic/rec2/ratt_group86.jpg"
+        },
+        {
+            "id": "8",
+            "name": "Behemoth",
+            "desc": "Behemoth is a Polish extreme metal band from Gdańsk, formed in 1991. They are considered to have played an important role in establishing the Polish extreme metal underground.Until the late 1990s, the band played a traditional black metal style with heathen lyrical content, but soon changed to that of occult and thelemic themes written by their lead vocalist Nergal and Krzysztof Azarewicz. With the 1999 release of Satanica, the band demonstrated their presence in the death metal scene, while retaining their own signature style.",
+            "countryId": 6,
+            "genreId": 2,
+            "albumsIds": [51,52,53,54,55,56,57,58,59,60,61],
+            "active": true,
+            "year": 1991,
+            "img": "https://ct24.ceskatelevize.cz/sites/default/files/styles/file-video_16x9/public/behemoth.jpg?itok=na0luO5z"
+        },
+        {
+            "id": "9",
+            "name": "Emperor",
+            "desc": "Emperor is a Norwegian black metal band formed in 1991, regarded as highly influential by critics and emerging black metal bands.The group split up in 2001, but reunited from 2005 to 2007 for a few festival dates and brief US tours, and again reunited in 2013 to 2014. Emperor reformed for the third time in 2016.",
+            "countryId": 1,
+            "genreId": 1,
+            "albumsIds": [62,63,64,65],
+            "active": false,
+            "year": 1991,
+            "img": "https://cdn.mos.cms.futurecdn.net/HbwxsQSDWEXsp8TS64LChD.jpg"
+        },
+        {
+            "id": "10",
+            "name": "Whitesnake",
+            "desc": "Whitesnake are a hard rock band formed in England in 1978 by David Coverdale, after his departure from his previous band Deep Purple. Their early material has been compared by critics to the blues rock of Deep Purple, but they slowly began moving toward a more commercially accessible rock style.By the turn of the decade, the band's commercial fortunes changed and they released a string of UK top 10 albums, Ready an' Willing (1980), Come an' Get It (1981), Saints & Sinners (1982) and Slide It In (1984), the last of which was their first to chart in the US and is certified 2x platinum.",
+            "countryId": 5,
+            "genreId": 5,
+            "albumsIds": [66,67,68,69,70,71,72,73,74,75,76],
+            "active": true,
+            "year": 1978,
+            "img": "https://coolaccidents.wmg-gardens.com/sites/g/files/g2000007366/files/2018-06/tinymce_file__d4fb313d4cbcafdb3b805e3ab851e80842a30a05.jpeg"
+        },
+        {
+            "id": "11",
+            "name": "Escape the Fate",
+            "desc": "Escape the Fate is an American rock band from Las Vegas, Nevada, formed in 2004 and originally from Pahrump, Nevada. They are signed to Eleven Seven Music. The group consists of Robert Ortiz (drummer), Craig Mabbitt (lead vocalist), TJ Bell (rhythm guitarist and vocalist), Kevin 'Thrasher' Gruft (lead guitarist) and touring musician Erik Jensen (bassist). As of 2013, Ortiz is the last founding member in the current lineup of the group.",
+            "countryId": 3,
+            "genreId": 8,
+            "albumsIds": [77,78,79,80,81,82],
+            "active": true,
+            "year": 2004,
+            "img": "https://www.rockandpop.cz/wp-content/uploads/2018/03/escape.jpeg"
+        }
+    ]
+}
